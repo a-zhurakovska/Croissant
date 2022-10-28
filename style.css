@@ -1,0 +1,33 @@
+body {
+  background-image: url(/photo/bg.jpeg);
+}
+
+.index,
+.photo,
+.contact {
+  display: block;
+  margin: 0 auto;
+  width: min-content;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(240, 248, 255, 0.42);
+}
+
+h1,
+h3 {
+  color: #300600;
+}
+
+a {
+  color: #602c0c;
+  text-decoration: none;
+  cursor: ne-resize;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  margin-top: 30px;
+}
